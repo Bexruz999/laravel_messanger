@@ -180,7 +180,7 @@ return [
     | which queue channel its jobs are dispatched on.
     */
     'calling' => [
-        'enabled' => env('MESSENGER_CALLING_ENABLED', false),
+        'enabled' => env('MESSENGER_CALLING_ENABLED', true),
         'subscriber' => [
             'enabled' => true,
             'queued' => true,

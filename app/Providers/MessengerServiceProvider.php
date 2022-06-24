@@ -37,7 +37,7 @@ class MessengerServiceProvider extends ServiceProvider
         ]);
 
         // Set the video driver of your choosing.
-//        Messenger::setVideoDriver(JanusBroker::class);
+        Messenger::setVideoDriver(JanusBroker::class);
 
         // Register the bot handlers you wish to use.
         MessengerBots::registerHandlers([
